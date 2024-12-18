@@ -120,7 +120,7 @@
   border: none;
   padding: 0;
   outline: 2px solid transparent;
-  outline-offset: -1px;
+  outline-offset: -1.5px;
   background-color: transparent;
   transition: outline 0.3s ease;
   appearance: none;
@@ -133,7 +133,7 @@
 
 .card__icon-button:focus-visible {
   outline: 2px solid var(--font-color, #000);
-  outline-offset: -1px;
+  outline-offset: -1.5px;
 }
 
 .sparks {
@@ -142,11 +142,6 @@
 
 .contour {
   transition: fill 0.1s linear;
-}
-
-.like-icon.is-liked .core {
-  fill: var(--heart-color, #ff0000);
-  transition: fill 0.3s 0.06s linear;
 }
 
 .core {
@@ -191,7 +186,7 @@
 
 .like-icon.is-liked .contour {
   fill: var(--heart-color, #ff0000);
-  transition: fill 0.3s 0.05s linear;
+  transition: fill 0.3s 0.06s linear;
 }
 
 .like-icon.is-liked .heart {
